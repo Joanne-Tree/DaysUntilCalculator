@@ -1,11 +1,20 @@
 # DaysUntilCalculator
+This project will tell you how many days are left between today and Christmas Day, New Years Eve, and Valentines Day.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can install:
+
+### 'npm install'
+
+Installs Node Package Manager.
+
+You can also run:
 
 ### `npm run start`
 
