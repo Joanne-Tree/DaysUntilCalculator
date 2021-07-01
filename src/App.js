@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import trigger from './components/trigger';
+import React, {component} from 'react';
 
 function App() {
   return (
     <div className="App">
+      <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
       <trigger/>
 <div>
  <div>
