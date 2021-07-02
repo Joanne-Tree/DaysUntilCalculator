@@ -1,14 +1,16 @@
 import React from 'react';
 
-function functionClick(){
-    function clickHandler(){
-        console.log('Button clicked')
-    }
+function ClickHandler(){
+    return(
+    console.log('Button clicked')
+)};
+
+function FunctionClick(){
     return(
         <div>
-        <button onClick={clickHandler}>Show Days Until</button>
+        <button onClick={ClickHandler}>Show Days Until</button>
         </div>
     )
-}
+};
 
-export default functionClick;
+export default FunctionClick;

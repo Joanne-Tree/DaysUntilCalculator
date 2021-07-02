@@ -1,7 +1,7 @@
 import React, {component} from 'react';
 import $ from 'jquery';
 
-function trigger() {
+
  const today = new Date();
  const xmas = new Date(2021, 12, 25);
  const newYear = new Date(2022, 1, 1);
@@ -17,9 +17,9 @@ const daysToXmas = calculateDaysTo(xmas);
 const daysToNewYear = calculateDaysTo(newYear);
 const daysToValentines = calculateDaysTo(valentines);
 
-    function showDaysUntil() {
-  .append(
-    "<li>" +
+    function ShowDaysUntil() {
+      return(
+        "<li>" +
       daysToXmas.toString() +
       " days until Christmas</li>" +
       "<li>" +
@@ -28,9 +28,7 @@ const daysToValentines = calculateDaysTo(valentines);
       "<li>" +
       daysToValentines.toString() +
       " days until Valentines Day</li>"
-  );
-});
-}
-
-export default trigger;
+    );
+  }
+export default ShowDaysUntil;
 
