@@ -1,0 +1,7 @@
+<div>
+    <button id="trigger" onClick={clickHandler}>Show Days Until</button>
+  </div>
+
+<div>
+      <ul id="days-until"></ul>
+     </div>
