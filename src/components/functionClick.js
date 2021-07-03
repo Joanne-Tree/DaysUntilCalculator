@@ -15,14 +15,12 @@ const daysToNewYear = CalculateDaysTo(newYear);
 const daysToValentines = CalculateDaysTo(valentines);
 
 function ShowDaysUntil() {
-    console.log('test');
       return (document.getElementById('root').append(
         daysToXmas.toString() + " days until Christmas. " + daysToNewYear.toString() + " days until New Year. "+ daysToValentines.toString() + " days until Valentines Day. "
       ));
 }
 
 function FunctionClick(){
-    console.log('test2')
     return(
         <div>
          <button onClick = {ShowDaysUntil}>
