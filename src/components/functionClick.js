@@ -1,6 +1,4 @@
 import React from 'react';
-//import ShowDaysUntil from './components/ShowDaysUntil';
-
  const today = new Date();
  const xmas = new Date(2021, 12, 25);
  const newYear = new Date(2022, 1, 1);
@@ -22,12 +20,6 @@ function ShowDaysUntil() {
         daysToXmas.toString() + " days until Christmas. " + daysToNewYear.toString() + " days until New Year. "+ daysToValentines.toString() + " days until Valentines Day. "
       ));
 }
-
-//return ShowDaysUntil();
-
-/*function ClickHandler(){
-    return (console.log("button clicked"))
-;}*/
 
 function FunctionClick(){
     console.log('test2')
