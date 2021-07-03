@@ -18,8 +18,8 @@ const daysToValentines = CalculateDaysTo(valentines);
 
 function ShowDaysUntil() {
     console.log('test');
-      return (document.write(
-        daysToXmas.toString() + " days until Christmas. " + daysToNewYear.toString() + " days until New Year. " + daysToValentines.toString() + " days until Valentines Day. "
+      return (document.getElementById('root').append(
+        daysToXmas.toString() + " days until Christmas. " + daysToNewYear.toString() + " days until New Year. "+ daysToValentines.toString() + " days until Valentines Day. "
       ));
 }
 
